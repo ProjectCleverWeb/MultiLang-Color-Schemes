@@ -1,5 +1,5 @@
 ![Schemes Designed For Humans To Read](http://i.imgur.com/nVWX4VB.png)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ProjectCleverWeb/MultiLang/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ProjectCleverWeb/MultiLang-Color-Schemes/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 ---
 ##Credit
 **Copyright &copy; Nicholas Jordon - All Rights Reserved**
