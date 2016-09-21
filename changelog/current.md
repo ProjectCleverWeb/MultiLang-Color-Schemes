@@ -5,6 +5,12 @@ Changelog
 https://github.com/ProjectCleverWeb/MultiLang
 
 
+### v1.2.0
+
+* Revamped Dark for PHP 7
+* Previous version of "Dark" is now available as "Dark (Legacy)"
+* Fixed some minor bugs where operators were not colored correctly
+
 ### v1.1.0
 
 * Added: Dark_Inverted Version - `MultiLanger-Dark_Inverted.ththeme`
