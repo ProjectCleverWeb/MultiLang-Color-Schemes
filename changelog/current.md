@@ -2,8 +2,13 @@ Changelog
 =========
 
 **See the repo for specific commits:**  
-https://github.com/ProjectCleverWeb/MultiLang
+https://github.com/ProjectCleverWeb/MultiLang-Color-Schemes
 
+
+### v1.2.1
+
+* Fixed various issues where colors weren't showing or were incorrect
+* Better support for storage types
 
 ### v1.2.0
 

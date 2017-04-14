@@ -44,7 +44,7 @@
 			<key>name</key>
 			<string>BASE: Operator</string>
 			<key>scope</key>
-			<string>keyword.operator</string>
+			<string>keyword.operator, punctuation.separator.php, punctuation.separator.namespace.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -139,7 +139,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#00fbf4</string>
+				<string>#00FBF4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -152,7 +152,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#2bf90d</string>
+				<string>#2BF90D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -469,7 +469,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffc753</string>
+				<string>#FFC753</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -493,7 +493,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f2d19f</string>
+				<string>#F2D19F</string>
 				<key>fontStyle</key>
 				<string></string>
 			</dict>
@@ -506,7 +506,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff9c2f</string>
+				<string>#FF9C2F</string>
 				<key>fontStyle</key>
 				<string></string>
 			</dict>
@@ -713,7 +713,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00fbf4</string>
+				<string>#00FBF4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -733,18 +733,18 @@
 			<key>name</key>
 			<string>PHP: Keywords</string>
 			<key>scope</key>
-			<string>source.php keyword - comment, source.php storage.type.class, source.php storage.type.interface, source.php storage.modifier, source.php constant.language, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.group.php meta.function-call.php meta.group.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.group.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php meta.block.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php variable.language.php</string>
+			<string>source.php keyword - comment, source.php constant.language, source.php storage.modifier, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.group.php meta.function-call.php meta.group.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.group.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php meta.block.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php variable.language.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php variable.language.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2bf90d</string>
+				<string>#2BF90D</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>PHP: Operator</string>
 			<key>scope</key>
-			<string>source.php keyword.operator, meta.function.arguments, text.html.basic source.php.embedded.block.html meta.function.php meta.function.arguments.php, text.html.basic source.php.embedded.block.html meta.function.php meta.function.arguments.php meta.function.argument.typehinted.php support.class.builtin.php punctuation.separator.inheritance.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.function-call.method.php keyword.operator.class.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.group.php meta.function-call.php meta.group.php punctuation.definition.group.begin.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.group.php meta.function-call.php meta.group.php punctuation.definition.group.end.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php meta.function-call.php meta.group.php punctuation.definition.group.begin.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php meta.function-call.php meta.group.php punctuation.definition.group.end.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.function-call.php meta.group.php punctuation.definition.group.begin.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.function-call.php meta.group.php punctuation.definition.group.end.php</string>
+			<string>source.php keyword.operator, meta.function.arguments, text.html.basic source.php.embedded.block.html meta.function.php meta.function.arguments.php, text.html.basic source.php.embedded.block.html meta.function.php meta.function.arguments.php meta.function.argument.typehinted.php support.class.builtin.php punctuation.separator.inheritance.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.function-call.method.php keyword.operator.class.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.group.php meta.function-call.php meta.group.php punctuation.definition.group.begin.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.group.php meta.function-call.php meta.group.php punctuation.definition.group.end.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php meta.function-call.php meta.group.php punctuation.definition.group.begin.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php meta.function-call.php meta.group.php punctuation.definition.group.end.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.function-call.php meta.group.php punctuation.definition.group.begin.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.function-call.php meta.group.php punctuation.definition.group.end.php, source.php meta.namespace.php entity.name.namespace.php punctuation.separator.namespace.php, source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.function-call.php meta.group.php, source.php meta.function-call.php meta.group.php meta.array.php, source.php meta.function-call.php meta.group.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -772,7 +772,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#05fe88</string>
+				<string>#05FE88</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -824,7 +824,7 @@
 				<key>fontStyle</key>
 				<string> bold</string>
 				<key>foreground</key>
-				<string>#9f72fe</string>
+				<string>#9F72FE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -855,7 +855,7 @@
 			<key>name</key>
 			<string>PHP: User Method&#x2f;Function</string>
 			<key>scope</key>
-			<string>meta.function-call.php, meta.function-call.object.php, meta.function-call.static.php, entity.name.function.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php meta.function-call.static.php variable.function.php</string>
+			<string>meta.function-call.php, meta.function-call.object.php, meta.function-call.static.php, entity.name.function.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.block.php meta.function-call.static.php variable.function.php, source.php meta.function-call.php variable.function.php, source.php meta.function-call.method.php variable.function.php, source.php meta.function-call.static.php variable.function.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -875,13 +875,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: User Class&#x2f;Interface</string>
+			<string>PHP: User Class&#x2f;Interface&#x2f;Trait</string>
 			<key>scope</key>
-			<string>entity.name.type.class.php, support.class.php, entity.name.type.interface, support.other.namespace.use-as.php</string>
+			<string>entity.name.type.class.php, support.class.php, entity.name.type.interface, support.other.namespace.use-as.php, source.php meta.class.php entity.name.class.php, source.php meta.class.php meta.path.php entity.other.inherited-class.php,source.php meta.use.php entity.name.class.php, embedding.php text.html.basic meta.embedded.block.php source.php entity.name.trait.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.interface.php entity.name.interface.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fe0efe</string>
+				<string>#FE0EFE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -925,7 +925,7 @@
 			<key>name</key>
 			<string>PHP: Storage Type</string>
 			<key>scope</key>
-			<string>storage.type.php, support.other.namespace.php, source.php storage, source.php storage.type.function, support.other.namespace.use.php, meta.function.argument.typehinted.php support.class.php</string>
+			<string>storage.type.php, support.other.namespace.php, source.php storage, source.php storage.type.function, support.other.namespace.use.php, meta.function.argument.typehinted.php support.class.php, source.php meta.namespace.php meta.path.php entity.name.namespace.php, source.php storage.type.class, source.php storage.type.interface, embedding.php text.html.basic meta.embedded.block.php source.php storage.type.trait.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -977,7 +977,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fb5a24</string>
+				<string>#FB5A24</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -1172,6 +1172,89 @@
 			<dict>
 				<key>foreground</key>
 				<string>#BB0022</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML: Key Name</string>
+			<key>scope</key>
+			<string>source.yaml string.unquoted.plain.out.yaml entity.name.tag.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC753</string>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML: Punctuation</string>
+			<key>scope</key>
+			<string>source.yaml punctuation.definition.block.sequence.item.yaml, source.yaml punctuation.separator.mapping.key-value.yaml, source.yaml string.quoted.double.yaml punctuation.definition.string.begin.yaml, source.yaml string.quoted.single.yaml punctuation.definition.string.begin.yaml, source.yaml string.quoted.double.yaml punctuation.definition.string.end.yaml, source.yaml string.quoted.single.yaml punctuation.definition.string.end.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FB5A24</string>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML: Constants</string>
+			<key>scope</key>
+			<string>source.yaml constant.numeric.integer.yaml, source.yaml constant.numeric.float.yaml, source.yaml constant.language.boolean.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9F72FE</string>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML: BASE</string>
+			<key>scope</key>
+			<string>source.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML: Unquoted Text</string>
+			<key>scope</key>
+			<string>source.yaml string.unquoted.plain.out.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFEDC4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML: Keywords</string>
+			<key>scope</key>
+			<string>source.yaml punctuation.definition.block.scalar.literal.yaml, source.yaml punctuation.definition.block.scalar.folded.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2BF90D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML: Variables</string>
+			<key>scope</key>
+			<string>source.yaml meta.property.yaml entity.name.other.anchor.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FBF4</string>
 			</dict>
 		</dict>
 	</array>
